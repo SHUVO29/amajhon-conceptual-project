@@ -1,17 +1,21 @@
+import NavBar from "./component/NavBar/NavBar"
+import DaisyNav from './component/DaisyNav/DaisyNav'
+import PriceOptions from "./component/PriceOptions/PriceOptions";
 
-import DaisyNav from './component/DaisyNav/DaisyNav';
-import NavBar from "./component/NavBar/NavBar";
 
 function App() {
   return (
     <>
-  <NavBar></NavBar>
+ 
       {/* <h1 className='bg-red-400'>hello</h1> */}
-
+      <NavBar></NavBar>
       <DaisyNav></DaisyNav>
-    
+      <h1 className="text-7xl bg-rose-600">Vite + React</h1>
+      {/* <PriceOptions></PriceOptions> */}
+      <PriceOptions></PriceOptions>
+      
 
-      <div className="stats shadow">
+      {/* <div className="stats shadow">
   
   <div className="stat">
     <div className="stat-figure text-primary">
@@ -44,9 +48,9 @@ function App() {
     <div className="stat-desc text-secondary">31 tasks remaining</div>
   </div>
   
-</div>
+</div> */}
 
-<div className="hero min-h-screen bg-base-200">
+{/* <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Login now!</h1>
@@ -75,7 +79,7 @@ function App() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
       
