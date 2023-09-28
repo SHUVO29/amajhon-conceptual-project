@@ -54,7 +54,9 @@ const priceOptions = [
             {
                 priceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
             }
+            
         </div>
+        
     </div>
     );
 };

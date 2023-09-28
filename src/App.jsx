@@ -1,7 +1,7 @@
 import NavBar from "./component/NavBar/NavBar"
 import DaisyNav from './component/DaisyNav/DaisyNav'
 import PriceOptions from "./component/PriceOptions/PriceOptions";
-
+import LineChart from './component/LineChart/LineChart';
 
 function App() {
   return (
@@ -13,8 +13,13 @@ function App() {
       <h1 className="text-7xl bg-rose-600">Vite + React</h1>
       {/* <PriceOptions></PriceOptions> */}
       <PriceOptions></PriceOptions>
-      
 
+
+      
+      {/* <PieCharts></PieCharts> */}
+      <LineChart></LineChart>
+      {/* <LChart></LChart> */}
+    {/* <lineChart></lineChart> */}
       {/* <div className="stats shadow">
   
   <div className="stat">
